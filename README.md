@@ -1,0 +1,2 @@
+# Amazon-Website-Clone
+This is a responsive Amazon.in website clone created using only HTML and CSS. It's designed to replicate the look and feel of Amazon's homepage, including key components like the navbar, search bar, delivery info, hero image, and header menus. This project is still a work in progress and will be updated with additional sections, responsiveness, and interactivity in the future.
