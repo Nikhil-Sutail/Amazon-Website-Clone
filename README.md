@@ -16,7 +16,8 @@ This is a beginner-friendly project that replicates the Amazon.in homepage using
 
 ## 📁 Folder Structure
 
-Amazon-Clone/ ├── index.html
+Amazon-Clone/ 
+├── index.html
 ├── style.css
 └── Amazon Clone (Resources)/ ├── amazon_logo.png
 └── hero_image.jpg

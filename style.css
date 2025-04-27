@@ -7,86 +7,85 @@
 
 .navbar{
     background-color: #131921;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 10px;
 }
 
-.navbar .logo img{
-    height: 80px;
+/* .border:hover{
+    border: 2px solid white;
+} */
+
+
+.navbar > .logo > img{
+    height: 4rem;
     width: auto;
-    margin-top: 10px;
 }
 
-.navbar .deliver-to .deliver-to-text{
+.deliver-to-india > span{
     color: #cccccc;
-    font-size: 12px;
+    font-size: 0.7rem;
+    margin-left: 15px;
 }
 
-.navbar .deliver-to .deliver-to-flex-icon{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-
-.navbar .deliver-to .deliver-to-flex-icon i{
-    margin-right: 5px;
-    color: white;
-    font-size: 15px;
-}
-
-.navbar .deliver-to .deliver-to-flex-icon p{
-    font-size: 15px;
+.deliver-to-india > .location-india-flex > i, span{
     color: white;
     font-weight: bolder;
-}
+    font-size: 0.9rem;
+} 
 
-.navbar .search-bar{
+.navbar > .search-bar{
     height: 40px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
 }
 
 .navbar .search-bar select{
-    background-color: #C9C9C9;
+    background-color: #e6e6e6;
     height: 100%;
-    width: 50px;
+    width: 60px;
     text-align: center;
     border-bottom-left-radius: 10%;
     border-top-left-radius: 10%;
+    border: none;
 }
 
 .navbar .search-bar input{
-    background-color: #EEEEEE;
+    background-color: #fff;
     height: 100%;
-    width: 70vh;
+    width: 100%;
     padding: 10px;
+    border: none;
 }
 
 .navbar .search-bar button{
     background-color: #E39D41;
     height: 100%;
-    width: 40px;
+    width: 50px;
+    font-size: 1rem;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
+    border: none;
 }
 
-.navbar .language-bar{
-    
-}
-
-.navbar .language-bar select{
+.navbar > .language-bar > select{
     background-color: #131921;
     color: white;
     border: none;
     font-weight: bolder;
-    font-size: large;
+    font-size: 0.8rem;
 }
 
-.navbar .sign-in p{
+.navbar > .sign-in > p{
     color: white;
     margin-left: 5px;
+    font-size: 0.7rem;
 }
 
 .navbar .sign-in select{
@@ -94,37 +93,42 @@
     border: none;
     background: none;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 0.8rem;
 }
 
 .navbar .returns-and-orders :nth-child(1){
     color: white;
-    font-size: small;
+    font-size: 0.7rem;
 }
 
 .navbar .returns-and-orders :nth-child(2){
     color: white;
-    font-size: large;
+    font-size: 0.8rem;
     font-weight: bolder;
 }
 
 .navbar .cart{
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .navbar-2{
-    background-color: #131921;
-    width: 100%;
-    height: 30px;
+    background-color: #222F3E;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    height: 40px;
     color: white;
+    font-size: 0.8rem;
+    padding-left: 10px;
 }
 
 .navbar-2 ul li{
     display: inline;
     margin: 10px;
-    font-size: 15px;
+}
+
+.hero-img img{
+    width: 100%;
 }
