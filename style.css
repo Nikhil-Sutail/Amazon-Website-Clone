@@ -88,7 +88,7 @@
     font-size: 0.7rem;
 }
 
-.navbar .sign-in select{
+.navbar > .sign-in > select{
     color: white;
     border: none;
     background: none;
@@ -96,18 +96,18 @@
     font-size: 0.8rem;
 }
 
-.navbar .returns-and-orders :nth-child(1){
+.navbar > .returns-and-orders:nth-child(1){
     color: white;
     font-size: 0.7rem;
 }
 
-.navbar .returns-and-orders :nth-child(2){
+.navbar > .returns-and-orders > p{
     color: white;
     font-size: 0.8rem;
     font-weight: bolder;
 }
 
-.navbar .cart{
+.navbar > .cart{
     color: white;
     font-size: 2rem;
 }
@@ -124,11 +124,41 @@
     padding-left: 10px;
 }
 
-.navbar-2 ul li{
+.navbar-2 > ul > li{
     display: inline;
     margin: 10px;
 }
 
-.hero-img img{
+.navbar-2 > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-section > .hero-img > img{
     width: 100%;
+}
+
+.hero-section > .hero-msg > p{
+    text-align: center;
+    font-size: 0.8rem;
+    height: 30px;
+}
+
+.hero-section > .hero-msg > p > a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+
+.shop-section > .box{
+    height: 250px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 0px 10px;
+    background-color: #fff;
 }
