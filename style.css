@@ -25,6 +25,10 @@
     width: auto;
 }
 
+.deliver-to-india{
+    min-width: 70px;
+}
+
 .deliver-to-india > span{
     color: #cccccc;
     font-size: 0.7rem;
@@ -135,17 +139,32 @@
 }
 
 .hero-section > .hero-img > img{
+    object-fit: cover;
+    object-position: top;
+    height: 300px;
     width: 100%;
 }
 
-.hero-section > .hero-msg > p{
+.hero-section > .hero-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 95%;
+    position: relative;
+    bottom: 60px;
     text-align: center;
     font-size: 0.8rem;
     height: 30px;
+    margin: auto;
 }
 
 .hero-section > .hero-msg > p > a{
     color: #007185;
+}
+
+body{
+    background-color: #E3E6E6;
 }
 
 .shop-section{
@@ -156,9 +175,33 @@
 }
 
 .shop-section > .box{
-    height: 250px;
-    width: 80%;
-    border: 2px solid black;
+    height: 380px;
+    width: 300px;
     margin: 0px 10px;
     background-color: #fff;
+}
+
+.shop-section > .product{
+    padding: 20px;
+}
+
+.shop-section > .product > .box-img{
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.shop-section > .product > .box-img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop-section > .product > p > a{
+    text-decoration: none;
+}
+
+.last{
+    height: 800px;
 }
