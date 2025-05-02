@@ -202,6 +202,240 @@ body{
     text-decoration: none;
 }
 
-.last{
-    height: 800px;
+.footer > .back-to-top-section{
+    background-color: #485769;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
 }
+
+.footer > .back-to-top-section > p > a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer > .links-list{
+    background-color: #222F3E;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.footer > .links-list > .list-1 > ul{
+    list-style-type: none;
+
+    li{
+        margin: 2px 0px;
+    }
+
+    li > a{
+        text-decoration: none;
+        color: white;
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    .get-to-know-us{
+        font-size: 1rem;
+        color: white;
+        font-weight: bolder;
+        margin: 4px 0px;
+    }
+}
+
+.footer > .links-list > .list-2 > ul{
+    list-style-type: none;
+
+    li{
+        margin: 2px 0px;
+    }
+
+    li > a{
+        text-decoration: none;
+        color: white;
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    .make-money-with-us{
+        font-size: 1rem;
+        color: white;
+        font-weight: bolder;
+        margin: 4px 0px;
+    }
+}
+
+.footer > .links-list > .list-3 > ul{
+    list-style-type: none;
+
+    li{
+        margin: 2px 0px;
+    }
+
+    li > a{
+        text-decoration: none;
+        color: white;
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    .amazon-payments-products{
+        font-size: 1rem;
+        color: white;
+        font-weight: bolder;
+        margin: 4px 0px;
+    }
+}
+
+.footer > .links-list > .list-4 > ul{
+    list-style-type: none;
+
+    li{
+        margin: 2px 0px;
+    }
+
+    li > a{
+        text-decoration: none;
+        color: white;
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    .let-us-help-you{
+        font-size: 1rem;
+        color: white;
+        font-weight: bolder;
+        margin: 4px 0px;
+    }
+}
+
+.footer > .country-section{
+    background-color: #222F3E;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > .country-section > .logo > img{
+    height: 4rem;
+    width: auto;
+    margin-right: 60px;
+}
+
+.footer > .country-section > .language-currency-country > select, button{
+    background-color: transparent;
+    color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    padding: 12px;
+    margin: 0px 5px;
+}
+
+.footer > .others{
+    background-color: #121A22;
+}
+
+.footer > .others > .line-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+    p{
+        color: #999999;
+        font-size: 0.7rem;
+    }
+
+    .heading{
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    div{
+        margin: 0px 5px;
+    }
+}
+
+.footer > .others > .line-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+    p{
+        color: #999999;
+        font-size: 0.7rem;
+    }
+
+    .heading{
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    div{
+        margin: 0px 5px;
+    }
+}
+
+.footer > .others > .line-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+    p{
+        color: #999999;
+        font-size: 0.7rem;
+    }
+
+    .heading{
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    div{
+        margin: 0px 5px;
+    }
+}
+
+.footer > .others > .line-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+    p{
+        color: #999999;
+        font-size: 0.7rem;
+    }
+
+    .heading{
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+
+    div{
+        margin: 0px 5px;
+    }
+}
+
+.footer > .policies{
+    background-color: #121A22;
+    text-align: center;
+    padding: 20px;
+
+    a, p{
+        text-decoration: none;
+        color: #DDDDDD;
+        font-size: 0.7rem;
+    }
+}
+
