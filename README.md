@@ -1,41 +1,58 @@
-# Amazon-Website-Clone
-This is a responsive Amazon.in website clone created using only HTML and CSS. It's designed to replicate the look and feel of Amazon's homepage, including key components like the navbar, search bar, delivery info, hero image, and header menus. This project is still a work in progress and will be updated with additional sections, responsiveness, and interactivity in the future.
+# Amazon Website Clone
 
-# Amazon Website Clone – HTML & CSS (In Progress)
+This project is a simple front-end clone of the Amazon homepage, built using HTML and CSS. It's designed for educational purposes and practice in web development.
 
-This is a beginner-friendly project that replicates the Amazon.in homepage using pure HTML and CSS. It includes:
-- A navigation bar with a logo, search bar, language switcher, account options, and cart
-- A secondary navbar with links
-- A hero banner image
-- Clean and structured layout
+## 🖼️ Preview
+
+Coming soon... (You can host it on GitHub Pages or Netlify and update this section with a link.)
 
 ## 🚀 Features
-- Fully structured with HTML and styled using CSS
-- Font Awesome used for icons
-- Folder structure includes images and styles
 
-## 📁 Folder Structure
+- Fully responsive layout
+- Navigation bar with logo and search
+- Hero section with promotional banners
+- Product grid section with Amazon-like cards
+- Footer with links and information
 
-Amazon-Clone/ 
-├── index.html
-├── style.css
-└── Amazon Clone (Resources)/ ├── amazon_logo.png
-└── hero_image.jpg
+## 🛠️ Technologies Used
 
-
-## 🧠 Skills Used
 - HTML5
 - CSS3
-- Flexbox
-- Font Awesome Icons
+- Flexbox & Grid
+- Font Awesome – For icons
 
-## 📌 Status
-**Project In Progress**  
-More sections will be added soon such as product grid, footer, and responsive design.
+## 📁 File Structure
 
-## 📷 Screenshot (Optional)
-*(Add a screenshot after hosting or once project is complete)*
+Amazon-Website-Clone/
+├── index.html
+├── style.css
+└── Amazon Clone (Resources)/
+    ├── amazon_logo.png
+    ├── hero_image.jpg
+    ├── box1_image.jpg
+    ├── box2_image.jpg
+    ├── ...
 
-## 📎 Resources
-- [Font Awesome](https://fontawesome.com/)
-- [Amazon Official Site](https://www.amazon.in/)
+
+## 🧑‍💻 How to Run
+
+1. Download or clone the repository:
+   ```bash
+   git clone https://github.com/your-username/amazon-website-clone.git
+
+2. Open the index.html file in your    preferred browser:
+    open index.html
+
+## 📸 Screenshots
+You can add screenshots of the project here to visually demonstrate the layout and design.
+
+## 📌 Future Improvements
+- Add responsiveness for mobile and tablet devices
+- Integrate JavaScript for interactive features like dropdowns and cart updates
+- Enhance accessibility (ARIA labels, keyboard navigation, etc.)
+
+## 📌 Note
+This project is not affiliated with Amazon in any way. It is purely for educational and practice purposes.
+
+## 📄 License
+This project is open-source and free to use under the MIT License.
